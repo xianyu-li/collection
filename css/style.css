@@ -3,3 +3,40 @@
     TYPOGRAPHY
     NAVIGATION
  */
+html{
+    background-color: #fcdb56;
+}
+img {
+     max-width: 100px;
+     max-height: 100px;
+
+ }
+
+ li {
+     list-style: none
+ }
+
+ ul#filters li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    padding: 30px;
+    text-decoration: none;
+
+
+}
+
+ul#filters{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+ul#images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
